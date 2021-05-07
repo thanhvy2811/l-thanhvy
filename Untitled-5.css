@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{margin: 0;
+padding: 0;}
+a
+{text-decoration: none;
+color: #696969; }
+a:hover{color: #6B7735;}
+.container 
+{width: 1200px;
+margin-left: auto;}
+/*menu*/
+.menu
+{margin-top: 30px;
+margin-bottom: 20px;
+text-align: center;}
+.menu ul li
+{display: inline-block;
+padding: 10px 20px;
+text-transform: uppercase;}
+.menu img:hover
+{opacity: 0;}
+/*slice*/
+.slice
+{margin-top: 30px;
+position: relative;
+padding: 10px;}
+.slice .left
+{width: 400px;
+position: absolute;
+left: 75px;
+top: 120px;}
+.slice .left h2
+{font-size: 80px;
+color: #464444;}
+.btn 
+{padding: 15px 55px;
+background-color: #758dba;
+border-radius: 30px;
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+cursor: pointer;
+border: none;
+margin-top: 20px;}
+.btn:hover
+{background-color: #6B7735;}
+/*banner*/
+.banner {margin-top: 20px;}
+#bannerLeft
+{padding: 20px;
+width: 600px;
+height: 590px;
+margin-right: 20px;
+float: left;
+background-image: url("../../../../OneDrive/Máy tính/bai 1/img-3.jpg");
+background-size: cover;
+position: relative;}
+#bannerRight
+{width: 700px;
+height: 700px;
+float: left;
+background-image: url("../../../../OneDrive/Máy tính/bai 1/img-5.png");
+background-size: cover;
+position: relative;}
+.textL
+{position: absolute;
+left: 440px;
+bottom: 75px;
+font-size: 60px;
+color: #6B7735;}
+.view1
+{position: absolute;
+bottom: 50px;
+left: 440px;
+text-transform: uppercase;}
+/*content*/
+.title 
+{margin-bottom: 20px;
+font-size: 50px;}
+.sp, .ten, .gia, .mua
+{width: 285px;
+margin-left: 20px;
+float: left;
+overflow: hidden;}
+.sp:frist-child .ten:frist-child .gia:frist-child .mua:frist-child
+{margin-left: 0;}
+.ten 
+p{color: #717814;
+text-align: center;
+margin-bottom: 10px;}
+.gia
+{text-align: center;
+font-size: 40px;
+font-weight: bold;
+color: #755F16;
+margin-bottom: 20px;}
+.gia span
+{font-size: 12px;}
+.mua
+{tegooxt-align: center;}
+/*footer*/
+.about
+{width: 400px;
+float: left;}
+.about #trai
+{width: 70px;
+height: 38px;
+margin-top: 15;
+margin-right: 20px;
+float: left;}
+.about #phai
+{width: 250px;
+	color: #000000;
+	float: left;}
+.contact
+{width: 300px;
+float: left;}
+.contact p
+{margin-top: 10px;
+color: #000000}
+.link
+{width: 500px;
+float: left;}
+
+
+
+
